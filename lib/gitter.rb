@@ -18,9 +18,10 @@ class Gitter
 
   def get_original_repos username
     @client.repositories(username).map do |repo|
-      full_repo = @client.repo repo.full_name
-      if full_repo.parent 
-        full_repo.parent
+      if repo.fork
+        @client.repo(repo.full_name).parent
+      else
+        repo
       end
     end
   end
