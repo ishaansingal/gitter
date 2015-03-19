@@ -1,0 +1,382 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/ishaansingal/spree-adyen/commits?author=ishaansingal
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 3.8.0
+      Content-Type:
+      - application/json
+      Authorization:
+      - token 9048107b47ff2be264ead8a0328b32415e784813
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 19 Mar 2015 09:27:35 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4997'
+      X-Ratelimit-Reset:
+      - '1426760739'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 16 Mar 2015 06:11:44 GMT
+      Etag:
+      - W/"13440bdce3596210079ad852575205c2"
+      X-Oauth-Scopes:
+      - gist, repo, user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 1B606A86:2908:128CF3A:550A9686
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - b0ef53392caa42315c6206737946d931
+    body:
+      encoding: UTF-8
+      string: '[{"sha":"d67efd8d6397727848abe68a807f636efd81b431","commit":{"author":{"name":"ishaansingal","email":"ishaansingal@gmail.com","date":"2015-03-16T06:11:44Z"},"committer":{"name":"ishaansingal","email":"ishaansingal@gmail.com","date":"2015-03-16T06:11:44Z"},"message":"Update
+        spree-adyen.gemspec","tree":{"sha":"3bd51e88a8255c749a5c09bfc691aea8bc96b534","url":"https://api.github.com/repos/ishaansingal/spree-adyen/git/trees/3bd51e88a8255c749a5c09bfc691aea8bc96b534"},"url":"https://api.github.com/repos/ishaansingal/spree-adyen/git/commits/d67efd8d6397727848abe68a807f636efd81b431","comment_count":0},"url":"https://api.github.com/repos/ishaansingal/spree-adyen/commits/d67efd8d6397727848abe68a807f636efd81b431","html_url":"https://github.com/ishaansingal/spree-adyen/commit/d67efd8d6397727848abe68a807f636efd81b431","comments_url":"https://api.github.com/repos/ishaansingal/spree-adyen/commits/d67efd8d6397727848abe68a807f636efd81b431/comments","author":{"login":"ishaansingal","id":3284125,"avatar_url":"https://avatars.githubusercontent.com/u/3284125?v=3","gravatar_id":"","url":"https://api.github.com/users/ishaansingal","html_url":"https://github.com/ishaansingal","followers_url":"https://api.github.com/users/ishaansingal/followers","following_url":"https://api.github.com/users/ishaansingal/following{/other_user}","gists_url":"https://api.github.com/users/ishaansingal/gists{/gist_id}","starred_url":"https://api.github.com/users/ishaansingal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ishaansingal/subscriptions","organizations_url":"https://api.github.com/users/ishaansingal/orgs","repos_url":"https://api.github.com/users/ishaansingal/repos","events_url":"https://api.github.com/users/ishaansingal/events{/privacy}","received_events_url":"https://api.github.com/users/ishaansingal/received_events","type":"User","site_admin":false},"committer":{"login":"ishaansingal","id":3284125,"avatar_url":"https://avatars.githubusercontent.com/u/3284125?v=3","gravatar_id":"","url":"https://api.github.com/users/ishaansingal","html_url":"https://github.com/ishaansingal","followers_url":"https://api.github.com/users/ishaansingal/followers","following_url":"https://api.github.com/users/ishaansingal/following{/other_user}","gists_url":"https://api.github.com/users/ishaansingal/gists{/gist_id}","starred_url":"https://api.github.com/users/ishaansingal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ishaansingal/subscriptions","organizations_url":"https://api.github.com/users/ishaansingal/orgs","repos_url":"https://api.github.com/users/ishaansingal/repos","events_url":"https://api.github.com/users/ishaansingal/events{/privacy}","received_events_url":"https://api.github.com/users/ishaansingal/received_events","type":"User","site_admin":false},"parents":[{"sha":"b9d4c448457abe143dd5a435506c9a63a0d01862","url":"https://api.github.com/repos/ishaansingal/spree-adyen/commits/b9d4c448457abe143dd5a435506c9a63a0d01862","html_url":"https://github.com/ishaansingal/spree-adyen/commit/b9d4c448457abe143dd5a435506c9a63a0d01862"}]}]'
+    http_version: 
+  recorded_at: Thu, 19 Mar 2015 09:27:34 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/ishaansingal/spree-adyen/commits/d67efd8d6397727848abe68a807f636efd81b431
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 3.8.0
+      Content-Type:
+      - application/json
+      Authorization:
+      - token 9048107b47ff2be264ead8a0328b32415e784813
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 19 Mar 2015 09:27:36 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4996'
+      X-Ratelimit-Reset:
+      - '1426760739'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Last-Modified:
+      - Mon, 16 Mar 2015 06:11:44 GMT
+      Etag:
+      - W/"3d822bf094dac73c153695508c053734"
+      X-Oauth-Scopes:
+      - gist, repo, user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 1B606A86:2908:128D1DA:550A9687
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 139317cebd6caf9cd03889139437f00b
+    body:
+      encoding: UTF-8
+      string: '{"sha":"d67efd8d6397727848abe68a807f636efd81b431","commit":{"author":{"name":"ishaansingal","email":"ishaansingal@gmail.com","date":"2015-03-16T06:11:44Z"},"committer":{"name":"ishaansingal","email":"ishaansingal@gmail.com","date":"2015-03-16T06:11:44Z"},"message":"Update
+        spree-adyen.gemspec","tree":{"sha":"3bd51e88a8255c749a5c09bfc691aea8bc96b534","url":"https://api.github.com/repos/ishaansingal/spree-adyen/git/trees/3bd51e88a8255c749a5c09bfc691aea8bc96b534"},"url":"https://api.github.com/repos/ishaansingal/spree-adyen/git/commits/d67efd8d6397727848abe68a807f636efd81b431","comment_count":0},"url":"https://api.github.com/repos/ishaansingal/spree-adyen/commits/d67efd8d6397727848abe68a807f636efd81b431","html_url":"https://github.com/ishaansingal/spree-adyen/commit/d67efd8d6397727848abe68a807f636efd81b431","comments_url":"https://api.github.com/repos/ishaansingal/spree-adyen/commits/d67efd8d6397727848abe68a807f636efd81b431/comments","author":{"login":"ishaansingal","id":3284125,"avatar_url":"https://avatars.githubusercontent.com/u/3284125?v=3","gravatar_id":"","url":"https://api.github.com/users/ishaansingal","html_url":"https://github.com/ishaansingal","followers_url":"https://api.github.com/users/ishaansingal/followers","following_url":"https://api.github.com/users/ishaansingal/following{/other_user}","gists_url":"https://api.github.com/users/ishaansingal/gists{/gist_id}","starred_url":"https://api.github.com/users/ishaansingal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ishaansingal/subscriptions","organizations_url":"https://api.github.com/users/ishaansingal/orgs","repos_url":"https://api.github.com/users/ishaansingal/repos","events_url":"https://api.github.com/users/ishaansingal/events{/privacy}","received_events_url":"https://api.github.com/users/ishaansingal/received_events","type":"User","site_admin":false},"committer":{"login":"ishaansingal","id":3284125,"avatar_url":"https://avatars.githubusercontent.com/u/3284125?v=3","gravatar_id":"","url":"https://api.github.com/users/ishaansingal","html_url":"https://github.com/ishaansingal","followers_url":"https://api.github.com/users/ishaansingal/followers","following_url":"https://api.github.com/users/ishaansingal/following{/other_user}","gists_url":"https://api.github.com/users/ishaansingal/gists{/gist_id}","starred_url":"https://api.github.com/users/ishaansingal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ishaansingal/subscriptions","organizations_url":"https://api.github.com/users/ishaansingal/orgs","repos_url":"https://api.github.com/users/ishaansingal/repos","events_url":"https://api.github.com/users/ishaansingal/events{/privacy}","received_events_url":"https://api.github.com/users/ishaansingal/received_events","type":"User","site_admin":false},"parents":[{"sha":"b9d4c448457abe143dd5a435506c9a63a0d01862","url":"https://api.github.com/repos/ishaansingal/spree-adyen/commits/b9d4c448457abe143dd5a435506c9a63a0d01862","html_url":"https://github.com/ishaansingal/spree-adyen/commit/b9d4c448457abe143dd5a435506c9a63a0d01862"}],"stats":{"total":2,"additions":1,"deletions":1},"files":[{"sha":"7ddca74453712ef4d40f964bc998f99ebef739fe","filename":"spree-adyen.gemspec","status":"modified","additions":1,"deletions":1,"changes":2,"blob_url":"https://github.com/ishaansingal/spree-adyen/blob/d67efd8d6397727848abe68a807f636efd81b431/spree-adyen.gemspec","raw_url":"https://github.com/ishaansingal/spree-adyen/raw/d67efd8d6397727848abe68a807f636efd81b431/spree-adyen.gemspec","contents_url":"https://api.github.com/repos/ishaansingal/spree-adyen/contents/spree-adyen.gemspec?ref=d67efd8d6397727848abe68a807f636efd81b431","patch":"@@
+        -28,5 +28,5 @@ Gem::Specification.new do |spec|\n   spec.add_development_dependency
+        ''sqlite3''\n \n   spec.add_runtime_dependency \"adyen\", \"~> 1.4.0\"\n-  spec.add_runtime_dependency
+        \"spree_core\", \">= 2.4.0.beta\"\n+  spec.add_runtime_dependency \"spree_core\",
+        \">= 2.4.7.beta\"\n end"}]}'
+    http_version: 
+  recorded_at: Thu, 19 Mar 2015 09:27:35 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/ishaansingal/adyen/commits?author=ishaansingal
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 3.8.0
+      Content-Type:
+      - application/json
+      Authorization:
+      - token 9048107b47ff2be264ead8a0328b32415e784813
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 19 Mar 2015 09:27:37 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4995'
+      X-Ratelimit-Reset:
+      - '1426760739'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Last-Modified:
+      - Thu, 02 Oct 2014 02:54:29 GMT
+      Etag:
+      - W/"7432813e2ad559a9c4f30028386b823a"
+      X-Oauth-Scopes:
+      - gist, repo, user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 1B606A86:2909:1564287:550A9689
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 76d9828c7e4f1d910f7ba069e90ce976
+    body:
+      encoding: UTF-8
+      string: '[{"sha":"3151a799919a1b289595675c79f43215c5bf064e","commit":{"author":{"name":"ishaansingal","email":"ishaansingal@gmail.com","date":"2014-10-02T02:54:29Z"},"committer":{"name":"ishaansingal","email":"ishaansingal@gmail.com","date":"2014-10-02T02:54:29Z"},"message":"Added
+        additional_data","tree":{"sha":"0941805ed44899881a7042bb075ae6242f36099a","url":"https://api.github.com/repos/ishaansingal/adyen/git/trees/0941805ed44899881a7042bb075ae6242f36099a"},"url":"https://api.github.com/repos/ishaansingal/adyen/git/commits/3151a799919a1b289595675c79f43215c5bf064e","comment_count":0},"url":"https://api.github.com/repos/ishaansingal/adyen/commits/3151a799919a1b289595675c79f43215c5bf064e","html_url":"https://github.com/ishaansingal/adyen/commit/3151a799919a1b289595675c79f43215c5bf064e","comments_url":"https://api.github.com/repos/ishaansingal/adyen/commits/3151a799919a1b289595675c79f43215c5bf064e/comments","author":{"login":"ishaansingal","id":3284125,"avatar_url":"https://avatars.githubusercontent.com/u/3284125?v=3","gravatar_id":"","url":"https://api.github.com/users/ishaansingal","html_url":"https://github.com/ishaansingal","followers_url":"https://api.github.com/users/ishaansingal/followers","following_url":"https://api.github.com/users/ishaansingal/following{/other_user}","gists_url":"https://api.github.com/users/ishaansingal/gists{/gist_id}","starred_url":"https://api.github.com/users/ishaansingal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ishaansingal/subscriptions","organizations_url":"https://api.github.com/users/ishaansingal/orgs","repos_url":"https://api.github.com/users/ishaansingal/repos","events_url":"https://api.github.com/users/ishaansingal/events{/privacy}","received_events_url":"https://api.github.com/users/ishaansingal/received_events","type":"User","site_admin":false},"committer":{"login":"ishaansingal","id":3284125,"avatar_url":"https://avatars.githubusercontent.com/u/3284125?v=3","gravatar_id":"","url":"https://api.github.com/users/ishaansingal","html_url":"https://github.com/ishaansingal","followers_url":"https://api.github.com/users/ishaansingal/followers","following_url":"https://api.github.com/users/ishaansingal/following{/other_user}","gists_url":"https://api.github.com/users/ishaansingal/gists{/gist_id}","starred_url":"https://api.github.com/users/ishaansingal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ishaansingal/subscriptions","organizations_url":"https://api.github.com/users/ishaansingal/orgs","repos_url":"https://api.github.com/users/ishaansingal/repos","events_url":"https://api.github.com/users/ishaansingal/events{/privacy}","received_events_url":"https://api.github.com/users/ishaansingal/received_events","type":"User","site_admin":false},"parents":[{"sha":"897fa9895902fcb78ebf0a8a4af94284567f351d","url":"https://api.github.com/repos/ishaansingal/adyen/commits/897fa9895902fcb78ebf0a8a4af94284567f351d","html_url":"https://github.com/ishaansingal/adyen/commit/897fa9895902fcb78ebf0a8a4af94284567f351d"}]}]'
+    http_version: 
+  recorded_at: Thu, 19 Mar 2015 09:27:36 GMT
+- request:
+    method: get
+    uri: https://api.github.com/repos/ishaansingal/adyen/commits/3151a799919a1b289595675c79f43215c5bf064e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 3.8.0
+      Content-Type:
+      - application/json
+      Authorization:
+      - token 9048107b47ff2be264ead8a0328b32415e784813
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 19 Mar 2015 09:27:38 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4994'
+      X-Ratelimit-Reset:
+      - '1426760739'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Last-Modified:
+      - Thu, 02 Oct 2014 02:54:29 GMT
+      Etag:
+      - W/"70bae4c92c9b4abc471ad04f52aa1489"
+      X-Oauth-Scopes:
+      - gist, repo, user
+      X-Accepted-Oauth-Scopes:
+      - ''
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 1B606A86:2908:128D5D6:550A968A
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 8dd185e423974a7e13abbbe6e060031e
+    body:
+      encoding: UTF-8
+      string: '{"sha":"3151a799919a1b289595675c79f43215c5bf064e","commit":{"author":{"name":"ishaansingal","email":"ishaansingal@gmail.com","date":"2014-10-02T02:54:29Z"},"committer":{"name":"ishaansingal","email":"ishaansingal@gmail.com","date":"2014-10-02T02:54:29Z"},"message":"Added
+        additional_data","tree":{"sha":"0941805ed44899881a7042bb075ae6242f36099a","url":"https://api.github.com/repos/ishaansingal/adyen/git/trees/0941805ed44899881a7042bb075ae6242f36099a"},"url":"https://api.github.com/repos/ishaansingal/adyen/git/commits/3151a799919a1b289595675c79f43215c5bf064e","comment_count":0},"url":"https://api.github.com/repos/ishaansingal/adyen/commits/3151a799919a1b289595675c79f43215c5bf064e","html_url":"https://github.com/ishaansingal/adyen/commit/3151a799919a1b289595675c79f43215c5bf064e","comments_url":"https://api.github.com/repos/ishaansingal/adyen/commits/3151a799919a1b289595675c79f43215c5bf064e/comments","author":{"login":"ishaansingal","id":3284125,"avatar_url":"https://avatars.githubusercontent.com/u/3284125?v=3","gravatar_id":"","url":"https://api.github.com/users/ishaansingal","html_url":"https://github.com/ishaansingal","followers_url":"https://api.github.com/users/ishaansingal/followers","following_url":"https://api.github.com/users/ishaansingal/following{/other_user}","gists_url":"https://api.github.com/users/ishaansingal/gists{/gist_id}","starred_url":"https://api.github.com/users/ishaansingal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ishaansingal/subscriptions","organizations_url":"https://api.github.com/users/ishaansingal/orgs","repos_url":"https://api.github.com/users/ishaansingal/repos","events_url":"https://api.github.com/users/ishaansingal/events{/privacy}","received_events_url":"https://api.github.com/users/ishaansingal/received_events","type":"User","site_admin":false},"committer":{"login":"ishaansingal","id":3284125,"avatar_url":"https://avatars.githubusercontent.com/u/3284125?v=3","gravatar_id":"","url":"https://api.github.com/users/ishaansingal","html_url":"https://github.com/ishaansingal","followers_url":"https://api.github.com/users/ishaansingal/followers","following_url":"https://api.github.com/users/ishaansingal/following{/other_user}","gists_url":"https://api.github.com/users/ishaansingal/gists{/gist_id}","starred_url":"https://api.github.com/users/ishaansingal/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ishaansingal/subscriptions","organizations_url":"https://api.github.com/users/ishaansingal/orgs","repos_url":"https://api.github.com/users/ishaansingal/repos","events_url":"https://api.github.com/users/ishaansingal/events{/privacy}","received_events_url":"https://api.github.com/users/ishaansingal/received_events","type":"User","site_admin":false},"parents":[{"sha":"897fa9895902fcb78ebf0a8a4af94284567f351d","url":"https://api.github.com/repos/ishaansingal/adyen/commits/897fa9895902fcb78ebf0a8a4af94284567f351d","html_url":"https://github.com/ishaansingal/adyen/commit/897fa9895902fcb78ebf0a8a4af94284567f351d"}],"stats":{"total":81,"additions":5,"deletions":76},"files":[{"sha":"51eae7385b7a8c69a3bdd0a330a5a040b2a496c3","filename":"lib/adyen/api/payment_service.rb","status":"modified","additions":5,"deletions":76,"changes":81,"blob_url":"https://github.com/ishaansingal/adyen/blob/3151a799919a1b289595675c79f43215c5bf064e/lib/adyen/api/payment_service.rb","raw_url":"https://github.com/ishaansingal/adyen/raw/3151a799919a1b289595675c79f43215c5bf064e/lib/adyen/api/payment_service.rb","contents_url":"https://api.github.com/repos/ishaansingal/adyen/contents/lib/adyen/api/payment_service.rb?ref=3151a799919a1b289595675c79f43215c5bf064e","patch":"@@
+        -40,11 +40,6 @@ class PaymentService < SimpleSOAPClient\n       # The Adyen
+        Payment SOAP service endpoint uri.\n       ENDPOINT_URI = ''https://pal-%s.adyen.com/pal/servlet/soap/Payment''\n
+        \n-      # @see API.generate_billet\n-      def generate_billet\n-        make_payment_request(generate_billet_request_body,
+        BilletResponse)\n-      end\n-\n       # @see API.authorise_payment\n       def
+        authorise_payment\n         make_payment_request(authorise_payment_request_body,
+        AuthorisationResponse)\n@@ -103,9 +98,9 @@ def authorise_recurring_payment_request_body\n
+        \n       def authorise_one_click_payment_request_body\n         validate_parameters!(:recurring_detail_reference,\n-                             :shopper
+        => [:email, :reference])\n-        content = one_click_card_partial\n-        content
+        << ONE_CLICK_PAYMENT_BODY_PARTIAL % [@params[:recurring_detail_reference]]\n+                             :shopper
+        => [:email, :reference],\n+                             :card    => [:cvc])\n+        content
+        = ONE_CLICK_PAYMENT_BODY_PARTIAL % [@params[:recurring_detail_reference],
+        @params[:card][:cvc]]\n         payment_request_body(content)\n       end\n
+        \n@@ -118,16 +113,6 @@ def payment_request_body(content)\n         LAYOUT
+        % [@params[:merchant_account], @params[:reference], content]\n       end\n
+        \n-      def generate_billet_request_body\n-        validate_parameters!(:merchant_account,
+        :reference, :amount => [:currency, :value])\n-        content  =  amount_partial\n-        content
+        << social_security_number_partial if @params[:social_security_number]\n-        content
+        << shopper_name_partial if @params[:shopper_name]\n-        content << delivery_date_partial
+        if @params[:delivery_date]\n-        content << selected_brand_partial if
+        @params[:selected_brand]\n-        LAYOUT % [@params[:merchant_account], @params[:reference],
+        content]\n-      end\n-\n       def capture_request_body\n         CAPTURE_LAYOUT
+        % capture_and_refund_params\n       end\n@@ -155,22 +140,8 @@ def amount_partial\n         AMOUNT_PARTIAL
+        % @params[:amount].values_at(:currency, :value)\n       end\n \n-      def
+        one_click_card_partial\n-        if @params[:card] && @params[:card][:encrypted]
+        && @params[:card][:encrypted][:json]\n-          ENCRYPTED_CARD_PARTIAL %
+        [@params[:card][:encrypted][:json]]\n-        else\n-          validate_parameters!(:card
+        => [:cvc])\n-          card  = @params[:card].values_at(:cvc)\n-          ONE_CLICK_CARD_PARTIAL
+        % card\n-        end\n-      end\n-\n-      def shopper_name_partial\n-        SHOPPER_NAME_PARTIAL
+        % @params[:shopper_name].values_at(:first_name, :last_name)\n-      end\n-\n       def
+        card_partial\n-        if @params[:card] && @params[:card][:encrypted] &&
+        @params[:card][:encrypted][:json]\n+        if @params[:card] and @params[:card][:encrypted]
+        and @params[:card][:encrypted][:json]\n           ENCRYPTED_CARD_PARTIAL %
+        [@params[:card][:encrypted][:json]]\n         else\n           validate_parameters!(:card
+        => [:holder_name, :number, :cvc, :expiry_year, :expiry_month])\n@@ -181,29
+        +152,11 @@ def card_partial\n       end\n \n       def installments_partial\n-        if
+        @params[:installments] && @params[:installments][:value]\n+        if @params[:installments]
+        and @params[:installments][:value]\n           INSTALLMENTS_PARTIAL % @params[:installments].values_at(:value)\n         end\n       end\n
+        \n-      def social_security_number_partial\n-        if @params[:social_security_number]\n-          SOCIAL_SECURITY_NUMBER_PARTIAL
+        % @params[:social_security_number]\n-        end\n-      end\n-\n-      def
+        selected_brand_partial\n-        if @params[:selected_brand]\n-          SELECTED_BRAND_PARTIAL
+        % @params[:selected_brand]\n-        end\n-      end\n-\n-      def delivery_date_partial\n-        if
+        @params[:delivery_date]\n-          DELIVERY_DATE_PARTIAL % @params[:delivery_date]\n-        end\n-      end\n-\n       def
+        shopper_partial\n         @params[:shopper].map { |k, v| SHOPPER_PARTIALS[k]
+        % v }.join(\"\\n\")\n       end\n@@ -213,30 +166,6 @@ def fraud_offset_partial\n         FRAUD_OFFSET_PARTIAL
+        % @params[:fraud_offset]\n       end\n \n-      class BilletResponse < Response\n-        RECEIVED
+        = \"Received\"\n-\n-        response_attrs :result_code, :billet_url, :psp_reference\n-\n-        def
+        success?\n-          super && params[:result_code] == RECEIVED\n-        end\n-\n-        def
+        params\n-          @params ||= xml_querier.xpath(''//payment:authoriseResponse/payment:paymentResult'')
+        do |result|\n-            {\n-              :psp_reference  => result.text(''./payment:pspReference''),\n-              :result_code    =>
+        result_code = result.text(''./payment:resultCode''),\n-              :billet_url     =>
+        (result_code == RECEIVED) ? result.children[0].children[0].children[1].text
+        : \"\"\n-            }\n-          end\n-        end\n-\n-        def invalid_request?\n-          !fault_message.nil?\n-        end\n-      end\n-\n       class
+        AuthorisationResponse < Response\n         ERRORS = {\n           \"validation
+        101 Invalid card number\"                           => [:number,       ''is
+        not a valid creditcard number''],"}]}'
+    http_version: 
+  recorded_at: Thu, 19 Mar 2015 09:27:37 GMT
+recorded_with: VCR 2.9.3
