@@ -6,6 +6,7 @@ gem "rspec", "~> 3.2.0"
 gem "vcr"
 gem "webmock"
 gem "pry"
+gem "faraday-http-cache"
 
 
 

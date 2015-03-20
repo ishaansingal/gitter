@@ -8,6 +8,8 @@ GEM
     diff-lcs (1.2.5)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
+    faraday-http-cache (1.0.1)
+      faraday (~> 0.8)
     method_source (0.8.2)
     multipart-post (2.0.0)
     octokit (3.8.0)
@@ -51,6 +53,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  faraday-http-cache
   octokit (~> 3.0)
   pry
   rspec (~> 3.2.0)

@@ -3,7 +3,7 @@ require 'pry'
 
 class Gitter
   def connect
-    @client = Octokit::Client.new(access_token: "9048107b47ff2be264ead8a0328b32415e784813")
+    @client = Octokit::Client.new(access_token: ENV["github_auth"])
   end
 
   def authenticated?
@@ -35,7 +35,13 @@ class Gitter
   end
 
   def contribution repo, username 
-    @client.commits(repo, { author: username }).map do |commit|
+    commits = @client.commits(repo, { author: username })
+    next_url = @client.last_response.rels[:next]
+    while ! next_url.nil? do
+      commits.concat Octokit.get(next_url.href)
+      next_url = Octokit.last_response.rels[:next]
+    end
+    commits.map do |commit|
       @client.commit repo, commit.sha
     end
   end
